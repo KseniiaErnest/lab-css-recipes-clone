@@ -17,8 +17,30 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+font-family: 'Anuphan', sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+/* HEADER */
+.header-container {
+  background-image: url('../images/apple-pie.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  
+}
+
+.intro-container {
+  text-align: center;
+  padding: 3rem;
+}
